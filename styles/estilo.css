@@ -1,0 +1,69 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    background-image: url(../imagens/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero{
+    padding: 1px;
+
+}
+
+.hero-content{
+    margin: 100px auto 0;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    font-size: 56px;
+    margin-bottom: 0;
+}
+
+.hero-content p{
+    padding: 16px;
+    background-color: rgba(0,0,0, .7);
+    display: inline-block;
+    border-bottom: 2px solid;
+    font-size: 18px;
+}
+
+.content-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 74%;
+    margin: auto;
+    background-color: white;
+    padding: 16px;
+    gap: 16px;
+
+    max-width: 1000px;
+}
+
+.card{
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.card img{
+    width: 100%;
+    display: block
+}
+
+.card p{
+    margin: 0;
+    background-color: #393535;
+    color: white;
+    padding: 8px;
+}
